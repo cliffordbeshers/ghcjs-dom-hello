@@ -45,7 +45,8 @@ library
         vector,	attoparsec-time, base64-bytestring, blaze-html, blaze-markup, bytestring, case-insensitive, cereal, clay, comonad,
         containers, data-default,
         directory, exceptions, filepath, generic-data,  generic-lens, groom, hashable,
-        hslogger, html-entity, i18n
+        hslogger, html-entity, i18n,
+        natural-sort, network-uri, pandoc-types
     hs-source-dirs: src
     default-language: Haskell2010
     ghc-options: -Wall -ferror-spans
