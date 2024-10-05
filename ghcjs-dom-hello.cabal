@@ -43,9 +43,9 @@ library
         mtl >=2.1 && <2.4, containers,
         transformers,
         vector,	attoparsec-time, base64-bytestring, blaze-html, blaze-markup, bytestring, case-insensitive, cereal, clay, comonad,
-        containers, data-default, directory, exceptions, filepath, formatting, generic-data, generic-lens, groom, hashable,
-        hslogger, html-entity, html-parse, i18n
-    -- , ixset-typed
+        containers, data-default,
+        directory, exceptions, filepath, generic-data,  generic-lens, groom, hashable,
+        hslogger, html-entity, i18n
     hs-source-dirs: src
     default-language: Haskell2010
     ghc-options: -Wall -ferror-spans
@@ -62,4 +62,10 @@ executable ghcjs-dom-hello
 
     if arch(javascript) && impl(ghc >= 9.10.1)
       ghc-options: -ddisable-js-c-sources
+
+-- formatting
+        --hslogger
+        -- hslogger, html-entity, i18n
+    -- , lens, LensLike, mmorph > 1, natural-sort, network-uri, pandoc-types, parsec, parsec-numbers
+    -- , ixset-typed,  html-parse, 
 
