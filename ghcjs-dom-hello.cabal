@@ -60,7 +60,18 @@ library
         time,
         transformers,
         type-level-sets,
-        typed-process
+        typed-process,
+        unexceptionalio-trans,
+        --userid,
+        utility-ht,
+        -- uuid,
+        --uuid-orphans,
+        --uuid-types,
+        web-routes,
+        web-routes-th,
+        -- webmodule >= 0.13,
+        zenc,
+        zlib
 
     hs-source-dirs: src
     default-language: Haskell2010
