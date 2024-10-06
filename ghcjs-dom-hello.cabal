@@ -45,6 +45,7 @@ library
         vector,	attoparsec-time, base64-bytestring, blaze-html, blaze-markup, bytestring, case-insensitive, cereal, clay, comonad,
         containers, data-default,
         directory, exceptions, filepath, generic-data,  generic-lens, groom, hashable,
+        -- haxl,
         hslogger, html-entity, i18n,
         natural-sort, network-uri, pandoc-types, parsec, parsec-numbers, pretty,
         process, process-extras, pureMD5, safe, safecopy >= 0.10.4,
@@ -72,6 +73,25 @@ library
         -- webmodule >= 0.13,
         zenc,
         zlib
+    if !arch(javascript)
+      build-depends:
+        happstack-server,
+        acid-state,
+        --byteunits,
+        --clckwrks,
+        --file-embed,
+        --happstack-authenticate,
+        -- slack-notify-haskell,
+        -- statvfs,
+        -- userid,
+        -- web-plugins,
+        -- archive,
+        network-uri,
+        -- uuid,
+        --uuid-orphans,
+        --uuid-types
+        shelly
+ 
 
     hs-source-dirs: src
     default-language: Haskell2010
