@@ -77,7 +77,7 @@ library
       build-depends:
         happstack-server,
         acid-state,
-        --byteunits,
+        byteunits,
         --clckwrks,
         --file-embed,
         --happstack-authenticate,
