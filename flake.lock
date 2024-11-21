@@ -667,7 +667,22 @@
         "nixpkgs": [
           "haskellNix",
           "nixpkgs-unstable"
-        ]
+        ],
+        "seereason": "seereason"
+      }
+    },
+    "seereason": {
+      "locked": {
+        "dirtyRev": "1f30958afd8f13c2d1beb884a141428ec7e4b008-dirty",
+        "dirtyShortRev": "1f30958-dirty",
+        "lastModified": 1730780777,
+        "narHash": "sha256-t4nw5CRAluDppxGBzMAtfaH7dlv4aFujCy5g+G++7WU=",
+        "type": "git",
+        "url": "file:///home/beshers/sr-all/seereason-flake"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/beshers/sr-all/seereason-flake"
       }
     },
     "stackage": {
