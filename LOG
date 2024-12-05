@@ -1,0 +1,23 @@
+Running phase: unpackPhase
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking source archive /nix/store/5cn7k12snp1qphwk45ssjzjg6bp5417k-webkit2gtk3-javascriptcore-0.14.4.6.tar.gz
+source root is webkit2gtk3-javascriptcore-0.14.4.6
+setting SOURCE_DATE_EPOCH to timestamp 1000000000 of file webkit2gtk3-javascriptcore-0.14.4.6/webkit2gtk3-javascriptcore.cabal
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "patchPhase" }
+'/build/.attr-0h9ydb7s8pfhl5kfs3rmmwnmpi49yyiw7jgr5dpw9rmvv8sy0f2b' -> 'webkit2gtk3-javascriptcore.cabal'
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+Configure flags:
+--prefix=/nix/store/ws198884xkxvcfy07ms21d3g3fnynpgd-webkit2gtk3-javascriptcore-lib-webkit2gtk3-javascriptcore-0.14.4.6 lib:webkit2gtk3-javascriptcore --package-db=clear --package-db=/nix/store/8r8wb5m6rqm2a04vkzscqw68vmifa2f4-webkit2gtk3-javascriptcore-lib-webkit2gtk3-javascriptcore-0.14.4.6-haddock-configFiles/lib/ghc-9.10.1/lib/package.conf.d --exact-configuration --dependency=base=base-4.20.0.0-inplace --dependency=ghc-bignum=ghc-bignum-1.3-inplace --dependency=ghc-internal=ghc-internal-9.1001.0-inplace --dependency=ghc-prim=ghc-prim-0.11.0-inplace --dependency=integer-gmp=integer-gmp-1.1-inplace --dependency=rts=rts-1.0.2 --with-ghc=ghc --with-ghc-pkg=ghc-pkg --with-hsc2hs=hsc2hs --with-pkg-config=pkg-config --with-gcc=cc --with-ar=ar --with-strip=strip --with-ld=ld --disable-executable-stripping --disable-library-stripping --disable-library-profiling --disable-profiling --enable-static --enable-shared --disable-executable-dynamic --disable-coverage --enable-library-for-ghci --datadir=/share/ghc-9.10.1 --enable-split-sections --docdir=/nix/store/0y6n5v5h7iw84ddzjk7d8aj1bjivnmrd-webkit2gtk3-javascriptcore-lib-webkit2gtk3-javascriptcore-0.14.4.6-haddock-doc/share/doc/webkit2gtk3-javascriptcore 
+Configuring library for webkit2gtk3-javascriptcore-0.14.4.6..
+Running phase: buildPhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+Preprocessing library for webkit2gtk3-javascriptcore-0.14.4.6..
+Setup: Graphics/UI/Gtk/WebKit/JavaScriptCore/JSValueRef.chi not found in:
+/nix/store/5h2p15d1n668iikbqiii89j7ijk3wk0v-ghc-9.10.1/lib/ghc-9.10.1/lib/x86_64-linux-ghc-9.10.1/base-4.20.0.0-inplace
+dist/build
+.
+
