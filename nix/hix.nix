@@ -2,7 +2,7 @@
   # name = "project-name";
   compiler-nix-name = "ghc910"; # Version of GHC to use
 
-  crossPlatforms = p: [p.ghcjs]);
+  crossPlatforms = p: [p.ghcjs];
 
   # Cross compilation support:
   # crossPlatforms = p: pkgs.lib.optionals pkgs.stdenv.hostPlatform.isx86_64 ([
