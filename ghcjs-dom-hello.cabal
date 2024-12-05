@@ -24,15 +24,15 @@ source-repository head
 
 flag warp
     description: Build ghcjs-dom-hello-warp
-    default: True
+    default: False
 
 flag webkitgtk
     description: Build ghcjs-dom-hello-webkitgtk
-    default: True
+    default: False
 
 flag webkit2gtk
     description: Use WebKit2 version of WebKitGTK.
-    default: True
+    default: False
 
 library
     exposed-modules:
